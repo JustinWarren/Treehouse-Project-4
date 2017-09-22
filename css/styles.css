@@ -1,0 +1,47 @@
+/******Base Styles******/
+body {
+	padding: 20px 150px;
+}
+
+img {
+	border-radius: 5px;
+}
+
+p {
+	display: none;
+}
+
+/******Class Styles******/
+
+
+.header {
+	text-align: center;
+	padding: 15px;
+}
+
+.row-1 {
+	display: flex;   /***Makes row of pictures a flex container****/
+	padding-top: 25px;
+	padding-bottom: 25px;
+	justify-content: space-around;   /***Aligns content spacing nicely within flex box***/
+} 
+
+.row-2 {
+	display: flex;
+	padding-bottom: 25px;
+	justify-content: space-around;
+}
+
+.row-3 {
+	display: flex;
+	padding-bottom: 25px;
+	justify-content: space-around;
+}
+
+
+input#search {
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	width: 30%;
+	border-color: #e6ecff;	
+}
